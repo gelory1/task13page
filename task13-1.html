@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1,
+          maximum-scale=1, user-scalable=no"/>
+    <title>Sass投票</title>
+    <link rel="stylesheet" href="task13-1.css" type="text/css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="box">
+    <div class="header-box">
+        <div class="header-menu">
+            <div class="menu-icon">
+            </div>
+        </div>
+        <div class="header-text">投票</div>
+        <div class="header-close">X</div>
+    </div>
+    <div class="blank1"></div>
+    <div class="inform-box">
+        <div class="inform-text">
+            发言讨论结束，大家请投票
+        </div>
+        <div class="inform-img"></div>
+    </div>
+    <div class="ps-box">
+        <div class="ps-trangle"></div>
+        <div class="ps-text">点击得票数最多的头像</div>
+    </div>
+    <div class="cont-row">
+        <div class="cont-row-left">
+            <div class="cont-top-box">
+                <div class="cont-top-top">水民</div>
+                <div class="cont-top-bottom">1号</div>
+            </div>
+            <div class="cont-bottom">
+                <div class="img-left"></div>
+                <div class="img-left-min"></div>
+                <div class="img-right-min"></div>
+                <div class="img-right"></div>
+            </div>
+        </div>
+        <div class="cont-row-min">
+            <div class="cont-top-box">
+                <div class="cont-top-top">水民</div>
+                <div class="cont-top-bottom">2号</div>
+            </div>
+            <div class="cont-bottom">
+                <div class="img-left"></div>
+                <div class="img-left-min"></div>
+                <div class="img-right-min"></div>
+                <div class="img-right"></div>
+            </div>
+        </div>
+        <div class="cont-row-right">
+            <div class="cont-top-box">
+                <div class="cont-top-top">警察</div>
+                <div class="cont-top-bottom">3号</div>
+            </div>
+            <div class="cont-bottom">
+                <div class="img-left"></div>
+                <div class="img-left-min"></div>
+                <div class="img-right-min"></div>
+                <div class="img-right"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cont-row">
+        <div class="cont-row-left">
+            <div class="cont-top-box">
+                <div class="cont-top-top">法官</div>
+                <div class="cont-top-bottom">4号</div>
+            </div>
+            <div class="cont-bottom">
+                <div class="img-left"></div>
+                <div class="img-left-min"></div>
+                <div class="img-right-min"></div>
+                <div class="img-right"></div>
+            </div>
+        </div>
+        <div class="cont-row-min">
+            <div class="cont-top-box">
+                <div class="cont-top-top">狙击手</div>
+                <div class="cont-top-bottom">5号</div>
+            </div>
+            <div class="cont-bottom">
+                <div class="img-left"></div>
+                <div class="img-left-min"></div>
+                <div class="img-right-min"></div>
+                <div class="img-right"></div>
+            </div>
+        </div>
+        <div class="cont-row-right">
+            <div class="cont-top-box">
+                <div class="cont-top-top">医生</div>
+                <div class="cont-top-bottom">6号</div>
+            </div>
+            <div class="cont-bottom">
+                <div class="img-left"></div>
+                <div class="img-left-min"></div>
+                <div class="img-right-min"></div>
+                <div class="img-right"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cont-row">
+        <div class="cont-row-left">
+            <div class="cont-top-box">
+                <div class="cont-top-top">杀手</div>
+                <div class="cont-top-bottom">7号</div>
+            </div>
+            <div class="cont-bottom">
+                <div class="img-left"></div>
+                <div class="img-left-min"></div>
+                <div class="img-right-min"></div>
+                <div class="img-right"></div>
+            </div>
+        </div>
+        <div class="cont-row-min">
+            <div class="cont-top-box">
+                <div class="cont-top-top">水民</div>
+                <div class="cont-top-bottom">8号</div>
+            </div>
+            <div class="cont-bottom">
+                <div class="img-left"></div>
+                <div class="img-left-min"></div>
+                <div class="img-right-min"></div>
+                <div class="img-right"></div>
+            </div>
+        </div>
+        <div class="cont-row-right">
+            <div class="cont-top-box">
+                <div class="cont-top-top">水民</div>
+                <div class="cont-top-bottom">9号</div>
+            </div>
+            <div class="cont-bottom">
+                <div class="img-left"></div>
+                <div class="img-left-min"></div>
+                <div class="img-right-min"></div>
+                <div class="img-right"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cont-row">
+        <div class="cont-row-left">
+            <div class="cont-top-box">
+                <div class="cont-top-top">水民</div>
+                <div class="cont-top-bottom">10号</div>
+            </div>
+            <div class="cont-bottom">
+                <div class="img-left"></div>
+                <div class="img-left-min"></div>
+                <div class="img-right-min"></div>
+                <div class="img-right"></div>
+            </div>
+        </div>
+        <div class="cont-row-min">
+            <div class="cont-top-box">
+                <div class="cont-top-top">水民</div>
+                <div class="cont-top-bottom">11号</div>
+            </div>
+            <div class="cont-bottom">
+                <div class="img-left"></div>
+                <div class="img-left-min"></div>
+                <div class="img-right-min"></div>
+                <div class="img-right"></div>
+            </div>
+        </div>
+        <div class="cont-row-right">
+            <div class="cont-top-box">
+                <div class="cont-top-top">警察</div>
+                <div class="cont-top-bottom">12号</div>
+            </div>
+            <div class="cont-bottom">
+                <div class="img-left"></div>
+                <div class="img-left-min"></div>
+                <div class="img-right-min"></div>
+                <div class="img-right"></div>
+            </div>
+        </div>
+    </div>
+    <div class="blank2"></div>
+</div>
+<div class="footer-box">
+<button class="footer-btn">投死</button>
+</div>
+</body>
+</html>
