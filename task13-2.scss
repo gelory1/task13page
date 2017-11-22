@@ -53,11 +53,11 @@ $right-btncolor: rgb(251,180,53);
     background-size: 80%;
 }
 @mixin blank($blank){
-    width: 100vw;
+    width: 100%;
     padding-bottom: $blank;
 }
 .header-box{
-    width: 100vw;
+    width: 100%;
     position: fixed;
     top: 0;
     padding: 1vw;
@@ -79,7 +79,7 @@ $right-btncolor: rgb(251,180,53);
     background: url("images/结果页_05.png") no-repeat center;
 }
 .box{
-    width: 100vw;
+    width: 100%;
     background-color: $themecolor;
 }
 .cont-img{
@@ -143,5 +143,5 @@ $right-btncolor: rgb(251,180,53);
     background-color: $right-btncolor;
 }
 .blank2{
-    @include blank(12vh);
+    @include blank(15vh);
 }

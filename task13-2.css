@@ -88,7 +88,7 @@ a {
   clear: both; }
 
 .header-box {
-  width: 100vw;
+  width: 100%;
   position: fixed;
   top: 0;
   padding: 1vw;
@@ -100,7 +100,7 @@ a {
   align-items: center; }
 
 .blank1 {
-  width: 100vw;
+  width: 100%;
   padding-bottom: 2em; }
 
 .header-left, .header-right {
@@ -114,7 +114,7 @@ a {
   background: url("images/结果页_05.png") no-repeat center; }
 
 .box {
-  width: 100vw;
+  width: 100%;
   background-color: #29bde0; }
 
 .cont-img {
@@ -187,7 +187,7 @@ a {
   background-color: #fbb435; }
 
 .blank2 {
-  width: 100vw;
-  padding-bottom: 12vh; }
+  width: 100%;
+  padding-bottom: 15vh; }
 
 /*# sourceMappingURL=task13-2.css.map */

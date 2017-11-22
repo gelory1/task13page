@@ -47,16 +47,16 @@ $contbottomcolor: rgb(131,176,154);
     background-size: 80%;
 }
 @mixin blank($blank){
-    width: 100vw;
+    width: 100%;
     padding-bottom: $blank;
 }
 .box{
     background-color: $themecolor;
-    width: 100vw;
+    width: 100%;
     font-size: 2vw;
 }
 .header-box{
-    width: 100vw;
+    width: 100%;
     padding: 1em;
     position: fixed;
     top: 0;
@@ -64,6 +64,7 @@ $contbottomcolor: rgb(131,176,154);
     @include flexstyle(space-between);
     color: $whitecolor;
 }
+
 .menu-icon{
     width: 1em;
     height: .7em;
@@ -78,7 +79,7 @@ $contbottomcolor: rgb(131,176,154);
     border: .1em solid $whitecolor;
 }
 .inform-box{
-    width: 100vw;
+    width: 100%;
     background-color: $informcolor;
     padding: 1em;
     color: $textcolor;
@@ -105,7 +106,7 @@ $contbottomcolor: rgb(131,176,154);
     padding-top: 1vh;
 }
 .cont-row{
-    width: 100vw;
+    width: 100%;
     @include flexstyle(space-around);
 }
 .cont-top-box{
@@ -144,14 +145,14 @@ $contbottomcolor: rgb(131,176,154);
 .img-right{
     @include bkgimg("images/发言讨论结束，投票_16.png");
 }
-.cont-top-box:hover+.cont-bottom{
+.cont-row-box:hover .cont-bottom{
     opacity: 1;
 }
 .blank1{
     @include blank(8vw);
 }
 .blank2{
-    @include blank(15vw);
+    @include blank(20vw);
 }
 .footer-box{
     width: 100vw;
